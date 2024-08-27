@@ -13,7 +13,7 @@ export default defineConfig({
   viewportHeight: 900,
   screenshotOnRunFailure: true,
   restartBrowserBetweenSpecFiles: true,
-  reporter: 'sandy',
+  reporter: 'mochawesome',
   reporterOptions: {
     reportDir: 'cypress/reports/integration',
     overwrite: false,
